@@ -31,7 +31,7 @@ public class DistanceFile {
             hours = keyboard.nextInt();
         }
         while(speed < 0 || hours < 1);
-        outputFile.println("Hour\tDistanceTravelled");
+        outputFile.println("Hour\tDistance Travelled");
         outputFile.println("---------------------------");
         for(int i = 1; i <= hours; i++)
         {
