@@ -29,7 +29,7 @@ public class DistanceTraveled {
         }
         while(speed < 0 || hours < 1);
         
-        System.out.println("Hour\tDistanceTraveled");
+        System.out.println("Hour\tDistance Traveled");
         System.out.println("---------------------------");
         for(int i = 1; i <= hours; i++)
         {
